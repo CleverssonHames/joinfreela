@@ -4,7 +4,7 @@ import clevao from '../assets/img/clevdev.jpg'
 
 import ButtonAction from '../components/ButtonAction';
 import Card from '../components/Card';
-import SectionTitle from '../components/Sectiontitle';
+import SectionTitle from '../components/SectionTitle';
 import Footer from '../components/Footer';
 
 const Home = () => {

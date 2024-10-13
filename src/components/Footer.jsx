@@ -1,4 +1,4 @@
-import logoblack from '../assets/img/logo-preta.png';
+import logoblack from '../assets/img/Logo-preta.png';
 
 const Footer = () => {
     return (

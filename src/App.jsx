@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 import Registro from "./pages/Registro";
-import { TipoCadProvider } from "./context/tipoCadContext.jsx";
+import { TipoCadProvider } from "./context/TipoCadContext.jsx";
 
 function App() {
   return (

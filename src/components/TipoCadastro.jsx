@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { useContext } from "react";
-import { TipoCadContext } from "../context/tipoCadContext";
+import { TipoCadContext } from "../context/TipoCadContext";
 import { motion, transform } from "framer-motion";
 
 const TipoCadastro = ({ alteratela }) => {

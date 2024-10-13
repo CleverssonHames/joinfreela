@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/img/logo.png";
 import DadosFreelancer from "../components/DadosFreelancer";
-import TipoCadastro from "../components/tipoCadastro";
+import TipoCadastro from "../components/TipoCadastro";
 import DadosEmpresa from "../components/DadosEmpresa";
 import Steppers from "../components/Steppers";
 import Finalizacao from "../components/Finalização";

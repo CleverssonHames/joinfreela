@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { TipoCadContext } from "../context/tipoCadContext";
+import { TipoCadContext } from "../context/TipoCadContext";
 
 const Steppers = () => {
   const { tipoCadastro } = useContext(TipoCadContext);
