@@ -1,22 +1,23 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
-import NavBar from './components/NavBar';
-import Registro from './pages/Registro';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import NavBar from "./components/NavBar";
+import Registro from "./pages/Registro";
+import { TipoCadProvider } from "./context/tipoCadContext.jsx";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
         <NavBar />
-        <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/registro' element={<Registro />}/>
-        </Routes>
+        <TipoCadProvider>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/registro" element={<Registro />} />
+          </Routes>
+        </TipoCadProvider>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App;
