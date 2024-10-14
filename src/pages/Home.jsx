@@ -10,9 +10,9 @@ import Footer from '../components/Footer';
 const Home = () => {
 
     return (
-        <>
+        <main className='container mt-32'>
             <section className="hero">
-                <div className='lg:mx-72 mt-5 md:mt-20 flex flex-col-reverse lg:flex-row gap-6 md:gap-0 justify-between px-2'>
+                <div className='mt-5 md:mt-20 flex flex-col-reverse lg:flex-row gap-6 md:gap-0 justify-between px-2'>
                     <div className='flex flex-col items-center lg:items-start md:justify-around  md:mt-4'>
                         <h1 className="text-red-600 text-4xl md:text-6xl w-full lg:w-[545px] mb-6 font-black text-center lg:text-start">Experimente o <span className="text-white">Joinfreela</span>,ele é gratuito para freelancers.</h1>
                         <p className="text-white mb-6 w-full lg:w-[545px] text-lg md:text-3xl font-light text-center lg:text-start">Está em busca de profissionais qualificados para projetos rápidos ou contínuos? Ou é freelancer e quer expandir sua rede de clientes e oportunidades? Você está no lugar certo!</p>
@@ -105,7 +105,7 @@ const Home = () => {
                 </div>
             </section>
             <Footer />
-        </>
+        </main>
     )
 };
 export default Home;

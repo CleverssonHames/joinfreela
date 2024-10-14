@@ -42,7 +42,7 @@ const Registro = () => {
   }
 
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center mt-32">
       <div className="overflow-hidden w-[874px]">
         {telaTpCad && (
           <div className="flex items-center gap-2 p-2  ">

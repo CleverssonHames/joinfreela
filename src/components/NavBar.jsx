@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom"
 const NavBar = () => {
 
     return (
-        <nav className="flex justify-between items-center h-28 w-full p-4">
+        <nav className="flex justify-between items-center h-20 w-full p-4 bg-black opacity-85 border-b border-white fixed top-0">
             <div className="flex align-middle">
                 <img src={joinlogo} alt="logo da joinfreela" className='w-16 md:w-20'/>
             </div>
