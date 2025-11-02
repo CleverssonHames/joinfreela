@@ -13,3 +13,5 @@ npm install
 npm run dev
 ```
 
+Prototipo: https://www.figma.com/design/gVXHCZu0cStvYrYAriKQZi/joinfreelas.web.app?node-id=0-1&t=RFI38JbioRgzjJDR-1
+
